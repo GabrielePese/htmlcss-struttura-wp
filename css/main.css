@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 100px;
+  width: auto;
+  background-color: yellow;
+  margin: 5px;
+}
+
+.container{
+  height: auto;
+  content: "";
+  display: table;
+  clear:both;
+}
+.zonasx{
+  float: left;
+  background-color: pink;
+  width: 32%;
+  margin: 5px;
+}
+
+.zonacentro{
+  float: left;
+  background-color: purple;
+  width: 32%;
+  margin: 5px;
+}
+
+.zonadx{
+  float:right;
+
+  width: 32%;
+  margin: 5px;
+}
+.articolo{
+  width: auto;
+  margin-bottom: 10px;
+  background-color: pink;
+}
+footer{
+  height: 100px;
+  width: auto;
+  background-color: lightblue;
+  margin: 5px;
+}
